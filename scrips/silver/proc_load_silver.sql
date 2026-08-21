@@ -84,7 +84,7 @@ BEGIN
 	RAISE NOTICE '>>Inserting data into: silver.crm_prod_info';
 	INSERT INTO silver.crm_prod_info (
 	prd_id,
-	category_id,
+	cat_id,
 	prd_key,
 	prd_nm,
 	prd_cost,
