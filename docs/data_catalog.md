@@ -6,8 +6,8 @@ Consta de **tablas de dimensiones** y **tablas de hechos** para métricas de neg
 ---
 
 ### 1. **gold.dim_customers**
--**Propisito:** Almacena datos de clientes, información demográfica y geográfica.
--**Columnas:**
+- **Propisito:** Almacena datos de clientes, información demográfica y geográfica.
+- **Columnas:**
 
 | Nombre de columna| Tipo de dato  | Descripción                                                                                         |
 |------------------|---------------|-----------------------------------------------------------------------------------------------------|
