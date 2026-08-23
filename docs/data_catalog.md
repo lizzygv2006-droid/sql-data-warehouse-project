@@ -43,3 +43,19 @@ Consta de **tablas de dimensiones** y **tablas de hechos** para métricas de neg
 | start_date          | DATE          | La fecha en la cual el producto se lanzó para la venta o uso                                                    |
 
 ---
+
+### 3. **gold.fact_sales**
+- **Proposito:** Almacena datos de ventas transaccionales con fines analíticos.
+- **Columnas:**
+
+| Nombre de columna | Tipo de dato   | Description                                                                                                 |
+|-------------------|----------------|-------------------------------------------------------------------------------------------------------------|
+| order_number      | NVARCHAR(50)   | Un identificador único alfanumérico por cada orden de venta (e.j., 'SO54496').                              |
+| product_key       | INT            | Clave subrogada que enlaza la orden a los productos de la tabla dimensión.                                  |
+| customer_key      | INT            | Clave subrogada que enlaza la orden a los clientes de la tabla dimensión.                                   |
+| order_date        | DATE           | La fecha en la cual la orden fue realizada.                                                                 |
+| shipping_date     | DATE           | La fecha en la cual la orden fue enviada al cliente.                                                        |
+| due_date          | DATE           | La fecha en la cual el pago de la orden vence.                                                              |
+| sales_amount      | INT            | El valor monetario total de la venta de la línea de producto, en unidades monetarias completas (e.j., 25).  |
+| quantity          | INT            | El número de unidades del producto ordenado de la linea de producto (e.j., 1).                              |
+| price             | INT            | El precio unitario del producto de la linea de producto, en unidades monetarias completas (e.j., 25).       |
