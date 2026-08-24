@@ -67,6 +67,10 @@ sql-data-warehouse-project/
 ├── README.md                           # Descripción general del proyecto e instrucciones
 ```
 ---
+
+## 🛡️ License
+
+Este proyecto esta bajo la licencia de [MIT License](LICENSE). 
 ## 🌟 Acerca de mi
 
 Hola, soy **Liz Garcete**, estudiante de Análisis de Sistemas Informáticos. Como parte de mi formación, he decidido desarrollar la construcción de un Data Warehouse como mi primer proyecto orientado a un entorno más cercano al ámbito laboral.
