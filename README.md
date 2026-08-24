@@ -1,4 +1,4 @@
-# Data Warehouse and Analytics Project
+# Proyecto de Data WareHouse y análisis
 Construyendo un Data Warehouse Moderno Con Pgadmin4 , Incluyendo Procesos de ETL, modelado de datos y análisis.
 Este proyecto demuestra una solución integral de almacenamiento de datosy análisis, desde la construcción de un Data WareHouse hasta la generación de información accionable.
 
