@@ -65,7 +65,7 @@ sql-data-warehouse-project/
 ├── tests/                              # Scripts de prueba y archivos de calidad
 │
 ├── README.md                           # Descripción general del proyecto e instrucciones
-
+```
 ---
 ## 🌟 Acerca de mi
 
